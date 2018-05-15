@@ -3,11 +3,14 @@ body
   background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/background.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
 }
 
 p
 {
-  color: red;
+  color: black;
+  text-align: left;
+
 }
 
 #logo
@@ -19,10 +22,59 @@ p
 
 #gaige
 {
-  margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: auto;
+    justify-content: center;
+    line-height: 20px;
+    border: 5px 5px 5px 5px;
+
+
+
+
+/* test fail
+  display: inline-block;
+
+  text-align: left;
+  vertical-align: middle;
+  overflow: auto;
+  word-wrap: break-word;
+  line-height: auto;
+*/
+
 }
 
-h3
+
+.bouton a {
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url('/home/utilisateur/github/Page-BORDERLAND/images/boutonnoir.png') no-repeat;
+color:white;
+text-decoration:none;
+}
+.bouton a:hover {
+background:url('/home/utilisateur/github/Page-BORDERLAND/images/boutonnoir2.png') no-repeat;
+}
+
+.align {
+position: absolute;
+top:40px;
+}
+.align2 {
+  position: absolute;
+  top: 95px;
+}
+.align3 {
+  position: absolute;
+  top: 150px;
+}
+
+
+span
 {
-  
+  font-weight: bold;
 }
