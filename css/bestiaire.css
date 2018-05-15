@@ -10,6 +10,7 @@ body
   background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/background.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
 }
 .taille1 {
   font-size: 70px;
@@ -44,4 +45,25 @@ top:40px;
 .align3 {
   position: absolute;
   top: 150px;
+}
+
+.logo {
+  width:55%;
+  height: 55%;
+}
+#conteneur {
+  display:flex;
+  flex-wrap: wrap;
+}
+.element {
+  margin: auto;
+  color:yellow;
+}
+.ombre {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+#conteneur1 {
+  display:flex;
+  flex-wrap: wrap;
 }
