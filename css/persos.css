@@ -8,7 +8,9 @@ body
 
 p
 {
-  color: red;
+  color: black;
+  text-align: left;
+
 }
 
 #logo
@@ -20,8 +22,27 @@ p
 
 #gaige
 {
-  margin-top: 50px;
-  text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: auto;
+    justify-content: center;
+    line-height: 20px;
+    border: 5px 5px 5px 5px;
+
+
+
+
+/* test fail
+  display: inline-block;
+
+  text-align: left;
+  vertical-align: middle;
+  overflow: auto;
+  word-wrap: break-word;
+  line-height: auto;
+*/
+
 }
 
 
@@ -50,4 +71,10 @@ top:40px;
 .align3 {
   position: absolute;
   top: 150px;
+}
+
+
+span
+{
+  font-weight: bold;
 }
