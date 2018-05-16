@@ -74,25 +74,25 @@ ul a {
 }
 
 #bestiaire:hover ~ hr {
-    margin-left: 543px;
+    margin-left: 540px;
   }
 
 #arme:hover ~ hr {
-    margin-left: 30%;
+    margin-left: 760px;
 }
 
 #acheter:hover ~ hr {
-    margin-left: 45%;
+    margin-left: 975px;
 }
 
 hr {
     height: 3px;
-    width: 7%;
+    width: 8%;
     margin: 6px 0;
     background: #ffda1f;
     border: none;
     transition: .4s ease-in-out;
-    margin-left: 330px;
+    margin-left: 325px;
   }
 
 
