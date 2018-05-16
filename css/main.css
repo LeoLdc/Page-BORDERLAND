@@ -70,7 +70,7 @@ ul a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
-    display: inline-block;
+    display: inline-block;  /* no line-break after, so can sit near other elements */
     cursor:  pointer;
     width: 15%;
 

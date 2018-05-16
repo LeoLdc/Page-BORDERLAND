@@ -31,7 +31,7 @@ color:white;
 text-decoration:none;
 }
 .bouton a:hover {
-background:url('/home/utilisateur/github/Page-BORDERLAND/images/boutonnoir2.png') no-repeat;
+background:url('../images/boutonnoir2.png') no-repeat;
 }
 
 .align {
