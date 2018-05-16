@@ -80,3 +80,32 @@ a {
 #bottom {
   margin-bottom: 300px;
 }
+td , th {
+  border: 1px solid black;
+
+}
+table {
+  border-collapse: collapse;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.backg {
+  background-color: #F0AA32;
+  color: white
+}
+.line2 {
+  color: #DEAA1B
+}
+.postab {
+  margin-left: 70%;
+}
+
+#hunter {
+margin-left: 40%
+
+}
+
+.yellow {
+  color:yellow
+}
