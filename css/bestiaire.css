@@ -73,3 +73,10 @@ a {
   color: yellow;
   text-decoration: none;
 }
+.marge1 {
+  position: absolute;
+  vertical-align: bottom;
+}
+#bottom {
+  margin-bottom: 300px;
+}
