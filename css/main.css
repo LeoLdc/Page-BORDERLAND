@@ -15,20 +15,61 @@
  
 
 body {
-    background: url("../images/bk.png")rgba(0, 0, 0, 0.5) no-repeat fixed center;
-    
+    background: url("../images/bk.png") no-repeat fixed center;
+    background-size: cover;
+}
+
+#wrapper {
+    padding: 8%;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+#vide1 {
+    height: 70px;
 }
 
 #text {
-    background-color: red;
-    max-width: 700px;
     text-align: center;
+    width: 100%;
 }
 p {
     font-family: "SourceSansProLight";
     font-size: 20px;
-    color: whitesmoke;
+    color:gainsboro;
     font-weight: 100;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    padding: 2%;
     
+}
+
+#vide2 {
+    
+    height: 120px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ul li {
+    display: inline;
+    list-style: none;
+   
+}
+ul a {
+    font-family: "SourceSansProLight";
+    color:gainsboro;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: inline-block;
+    margin: 0 50px;
 }
