@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "SourceSansPro";
+    src: url(../fonts/SourceSansPro.otf) format('opentype');
+
+
+  }
+  @font-face {
+    font-family: "SourceSansProLight";
+    src: url(../fonts/SourceSansProLight.otf) format('opentype');
+
+
+}
+
+
 body
 {
   background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/background.jpeg');
