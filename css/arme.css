@@ -1,0 +1,21 @@
+body {
+background-attachment: fixed;
+background-image:url('/home/utilisateur/github/Page-BORDERLAND/images/backgroundarme.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+/*z-index: 2;
+position:relative;*/
+}
+
+
+footer {
+  background-color: rgba(255,255,255,0.5);
+  border: 3px solid coral;
+  position: relative;
+  left: 100px
+  width: 200px;
+  height:1500px;
+}
+p {
+  font-size: 25px;
+}
