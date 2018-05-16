@@ -14,7 +14,7 @@
 
 body
 {
-  background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/background.jpeg');
+  background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/bk.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ body
 
 p
 {
-  color: black;
+  color: gainsboro;
   text-align: left;
 
 }

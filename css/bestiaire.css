@@ -7,7 +7,7 @@
 }
 body
 {
-  background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/background.jpeg');
+  background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/bk.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -81,7 +81,7 @@ a {
   margin-bottom: 300px;
 }
 td , th {
-  border: 1px solid black;
+  border: 1px solid white;
 
 }
 table {
@@ -99,6 +99,7 @@ table {
 }
 .postab {
   margin-left: 70%;
+  width: 30%
 }
 
 #hunter {
@@ -107,5 +108,22 @@ margin-left: 40%
 }
 
 .yellow {
-  color:yellow
+  color:yellow;
+}
+
+.white {
+  color: white;
+}
+
+.dim1 {
+  text-align: justify;
+  width: 50%
+}
+
+.redim {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+top: 130%;
+width: 80%
 }
