@@ -15,7 +15,7 @@ background-size: cover;
 footer {
   background-color: rgba(0,0,0,0.5);
   border: 3px solid coral;
-
+  padding-left: 20px;
   width: 650px;
   height:1500px;
   position: relative;
@@ -49,6 +49,12 @@ width: 300px;
 
 
 #giftroisieme{
+  position: absolute;
+  right:700px;
+  bottom:1200px;
+  border-radius: 80px;
+  border: 2px solid coral;
+}
 }
 
 
