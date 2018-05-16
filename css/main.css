@@ -1,17 +1,12 @@
 @import url(reset.css);
 
-@font-face {
-    font-family: "SourceSansPro";
-    src: url(../fonts/SourceSansPro.otf) format('opentype');
-        
 
-  }
-  @font-face {
+@font-face {
     font-family: "SourceSansProLight";
     src: url(../fonts/SourceSansProLight.otf) format('opentype');
         
 
-  }
+}
  
 
 body {
@@ -40,7 +35,7 @@ body {
 
 p {
     font-family: "SourceSansProLight";
-    font-size: 20px;
+    font-size: 18px;
     color:gainsboro;
     font-weight: 100;
     letter-spacing: 0.8px;
@@ -51,7 +46,7 @@ p {
 
 #vide2 {
     
-    height: 100px;
+    height: 80px;
 }
 
 ul {
@@ -79,7 +74,7 @@ ul a {
 }
 
 #bestiaire:hover ~ hr {
-    margin-left: 15%;
+    margin-left: 543px;
   }
 
 #arme:hover ~ hr {
@@ -97,6 +92,7 @@ hr {
     background: #ffda1f;
     border: none;
     transition: .4s ease-in-out;
+    margin-left: 330px;
   }
 
 
