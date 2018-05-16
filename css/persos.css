@@ -20,6 +20,11 @@ p
     margin-right: auto
 }
 
+.test
+{
+  width: 65%;
+  height: 500px;
+}
 #gaige
 {
     padding: 50px;
@@ -29,9 +34,6 @@ p
     justify-content: center;
     line-height: 20px;
     border: 5px 5px 5px 5px;
-
-
-
 
 /* test
   display: inline-block;
@@ -44,6 +46,32 @@ p
 */
 
 }
+
+
+#krieg
+{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: auto;
+  justify-content: center;
+  line-height: 20px;
+  border: 5px 5px 5px 5px;
+}
+
+#axton
+{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: auto;
+  justify-content: center;
+  line-height: 20px;
+  border: 5px 5px 5px 5px;
+}
+
+
+
 
 
 .bouton a {
