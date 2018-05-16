@@ -6,7 +6,7 @@
 
 body {
 background-attachment: fixed;
-background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/gif/mongif.gif');
+background-image: url('https://media.giphy.com/media/i8x4wSsUDvKEw/giphy.gif');
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -23,7 +23,7 @@ footer {
 }
 
 
-p, h2{
+p, h2 {
   font-size: 18px;
   color:gainsboro;
   font-family: "SourceSansProLight";
@@ -50,14 +50,17 @@ width: 300px;
 
 #giftroisieme{
   position: absolute;
-  right:700px;
-  bottom:1200px;
-  border-radius: 80px;
+  height: 150px;
+  width:150px;
+  right:750px;
+  opacity:0.5;
+  bottom:1250px;
+  border-radius: 150px;
   border: 2px solid coral;
 }
 }
 
 
-.titre {
-  color: coral;
+h3 {
+  font-family: white;
 }
