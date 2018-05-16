@@ -7,7 +7,7 @@
 }
 body
 {
-  background-image: url('/home/utilisateur/github/Page-BORDERLAND/images/bk.png');
+  background-image: url('../images/bk.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -26,7 +26,7 @@ width:150px;
 line-height:50px;
 text-align:center;
 vertical-align:middle;
-background:url('/home/utilisateur/github/Page-BORDERLAND/images/boutonnoir.png') no-repeat;
+background:url('../images/boutonnoir.png') no-repeat;
 color:white;
 text-decoration:none;
 }
